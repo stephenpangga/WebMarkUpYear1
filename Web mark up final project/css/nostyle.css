@@ -5,7 +5,7 @@ body
 	width: 960px;
 	margin: auto;
 }
-h1
+section.header1
 {
 	/*this is for the background of the header*/
 	background-image: url("../img/companylogoBG.png");
@@ -49,16 +49,32 @@ section.header2
 	font-size: 30px;
 }
 /* grid of photos*/
-section.imagelist
-
-section.photosize
+#grid-container
+{
+	background-color: #F8F;
+	border: solid 10px #F0F;
+	padding: 10px;
+	
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+#grid-container > article
+{
+	background-color: #EEE;
+	border: solid 10px #666;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;	
+}
+#grid-item img
 {
 	width: 100px;
-	height: 100px;
-}
-section.photosize img
-{
-	width: 100%;
 	height: auto;
-}	
-
+}
+footer
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
