@@ -2,39 +2,55 @@
 body
 {
 	background-image: url("../img/background.png");
+	width: 960px;
+	margin: auto;
 }
 h1
 {
-	/*this is for the background*/
+	/*this is for the background of the header*/
 	background-image: url("../img/companylogoBG.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	margin : auto;
-	width: 100%;
-	padding: 40px;
+	width: 960px;
+	padding-top: 25px;
+	padding-bottom: 25px;	
 	/*this is for the text title*/
 	font-family:"Berlin Sans FB";
-	font-size: 80pt;
+	font-size: 50px;
 	text-align: center;
 	color: white;	
 }
 /*navigation bar*/
 ul.navbar
 {
-	background-color: #707070;	
-	list-style-type: none;
+	background-color: #707070;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
 	text-align: center;
-	font-size: 20px;
-	color:white;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family:"Arial";
 }
 section.header2
 {
 	background-color: #2699FB;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 0.15px;
+	padding-bottom: 0.15px;
+	/*text in the sub header*/
+	font-family:"Arial";
 	text-align: center;
 	color: white;
-	font-size: 70px;	
+	font-size: 30px;
 }
 /* grid of photos*/
+section.imagelist
+
 section.photosize
 {
 	width: 100px;
