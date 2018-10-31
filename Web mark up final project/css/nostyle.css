@@ -1,0 +1,48 @@
+/*************************************************************************prodcut page*******************************************************************************************/
+body
+{
+	background-image: url("../img/background.png");
+}
+h1
+{
+	/*this is for the background*/
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin : auto;
+	width: 100%;
+	padding: 40px;
+	/*this is for the text title*/
+	font-family:"Berlin Sans FB";
+	font-size: 80pt;
+	text-align: center;
+	color: white;	
+}
+/*navigation bar*/
+ul.navbar
+{
+	background-color: #707070;	
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+	color:white;
+}
+section.header2
+{
+	background-color: #2699FB;
+	text-align: center;
+	color: white;
+	font-size: 70px;	
+}
+/* grid of photos*/
+section.photosize
+{
+	width: 100px;
+	height: 100px;
+}
+section.photosize img
+{
+	width: 100%;
+	height: auto;
+}	
+
