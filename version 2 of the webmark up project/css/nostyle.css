@@ -1,0 +1,81 @@
+/*************************************************************************prodcut page*******************************************************************************************/
+body
+{
+	background-image: url("../img/background.png");
+	width: 960px;
+	margin: auto;
+}
+section.header1
+{
+	/*this is for the background of the header*/
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin : auto;
+	width: 960px;
+	padding-top: 25px;
+	padding-bottom: 25px;	
+	/*this is for the text title*/
+	font-family:"Berlin Sans FB";
+	font-size: 50px;
+	text-align: center;
+	color: white;	
+}
+/*navigation bar*/
+ul.navbar
+{
+	background-color: #707070;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+	text-align: center;
+	list-style-type: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family:"Arial";
+}
+section.header2
+{
+	background-color: #2699FB;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 0.15px;
+	padding-bottom: 0.15px;
+	/*text in the sub header*/
+	font-family:"Arial";
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+/* grid of photos*/
+#grid-container
+{
+	background-color: #2699FB; /*grid gap color of the box*/
+	border: solid 10px #2699FB; /*the color of the outside border of the main box*/
+	padding: 1px;
+	
+	display:grid;
+	grid-template-columns: auto	auto auto;
+	grid-gap: 10px;
+	 /*IE solution*/
+}
+#grid-container > article
+{
+	background-color: #FFFFFF;
+	border: solid 1px #666;
+	text-align: center;
+	padding: 1px 0;
+	font-size: 30px;
+}
+img
+{
+	width: 300px;
+	height: 260px;
+}
+footer
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}

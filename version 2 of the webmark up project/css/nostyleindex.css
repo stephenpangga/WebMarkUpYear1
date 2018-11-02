@@ -1,0 +1,99 @@
+/*the general elements used for all the web page*/
+body
+{
+	background-image: url("../img/background.png");
+	background-image: no-repeat;
+	width: 960px;
+	margin: auto;
+}
+.general-content /*display changes*/
+{
+	display:flex; /* so that the columns will aline automatically depending on the browser*/
+	flex-direction: column; /* how the changes on the browser size will affect the colums*/
+}
+.header1 
+{
+	/* for the background*/ 
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	/*text in this header*/
+	color:#FFFFFF;
+	text-align:center;
+	text-transform: uppercase;
+	font-family:"Berlin Sans FB";
+	font-size: 32px;
+	padding-top: 25px; /*space between topBG and top part of text*/
+	padding-bottom: 25px;/*space between bottom of BG and bottom part of text*/
+}
+
+#nav /*background*/
+{
+	background-color: #878787;
+	/*border part*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+}
+
+.nav-bar
+{
+	color: #FFFFFF;
+	list-style-type: none;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	/*spacing*/
+	border: 1px solid #FFFFFF;
+	Flex-direction: column;
+	/*
+	
+	width: 930px;
+	
+	font-size: 25px;
+	
+	
+	
+	height:25px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	*/
+}
+footer
+{
+	background-color: #000000;
+	color: #FFFFFF;/*text color*/
+	text-align: center;
+	display:flex;
+	/*spacing for words a.k.a double space*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: center; /*to center the text*/
+}
+#header2
+{
+	background-color: #2699FB;
+	/*text pat*/
+	text-align: center;
+	text-transform:uppercase;
+	font-style: "Arial";
+	font-size: 10px;
+	color: #FFFFFF;
+}
+#grid-images
+{
+	background-color: #FFFFFF;
+	border: solid 1px;
+}
+#grid-images > foto
+{
+	border: solid 1px;
+	text-align: center;
+	
+}
+#foto img
+{
+	width: 960px;
+	height: auto;
+}
