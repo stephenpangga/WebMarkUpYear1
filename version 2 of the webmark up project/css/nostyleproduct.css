@@ -75,28 +75,27 @@ section.header2
 /* grid of photos*/
 #grid-containerP
 {
-	background-color: #2699FB; /*grid gap color of the box*/
-	border: solid 10px #2699FB; /*the color of the outside border of the main box*/
-	padding: 1px;
-	
-	display:grid;
-	grid-template-columns: auto	auto auto;
-	grid-gap: 10px;
-	 /*IE solution*/
+	background-color: #F8F;
+	border: solid 10px #F0F;
+	padding:10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grip-gap: 50px;
+	justify-content: space-evenly;
 }
-#grid-containerP > articleP
+#grid-containerP > article
 {
-	background-color: #FFFFFF;
-	border: solid 1px #666;
-	text-align: center;
-	padding: 1px 0;
-	font-size: 30px;
+	background-color: #EEE;
+	border: solid 10px #666;
+	padding:20px 0;
 }
 img
 {
-	width: 300px;
-	height: 260px;
+	padding: 11px;
+	width: 275px;
+	height: 200px;
 }
+
 footer
 {
 	background-color: #000000;
