@@ -1,0 +1,105 @@
+/*************************************************************************prodcut page*******************************************************************************************/
+body
+{
+	background-image: url("../img/background.png");
+	background-image: no-repeat;
+	width: 960px;
+	margin: auto;
+}
+.general-content /*display changes*/
+{
+	display:flex; /* so that the columns will aline automatically depending on the browser*/
+	flex-direction: column; /* how the changes on the browser size will affect the colums*/
+}
+.header1
+{
+	/* for the background*/ 
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	/*text in this header*/
+	color:#FFFFFF;
+	text-align:center;
+	text-transform: uppercase;
+	font-family:"Berlin Sans FB";
+	font-size: 32px;
+	padding-top: 25px; /*space between topBG and top part of text*/
+	padding-bottom: 25px;/*space between bottom of BG and bottom part of text*/
+}
+/*navigation bar*/
+#navbar
+{
+	vertical-align: middle;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	vertical-align: middle;
+	
+}
+
+li {
+    float: left;
+	margin-left: 19%;
+	text-align:center;
+	line-height: 50px;
+}
+
+li a {
+	
+	text-transform: uppercase;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section.header2
+{
+	background-color: #2699FB;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 0.15px;
+	padding-bottom: 0.15px;
+	/*text in the sub header*/
+	font-family:"Arial";
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+/* grid of photos*/
+#grid-containerP
+{
+	background-color: #2699FB; /*grid gap color of the box*/
+	border: solid 10px #2699FB; /*the color of the outside border of the main box*/
+	padding: 1px;
+	
+	display:grid;
+	grid-template-columns: auto	auto auto;
+	grid-gap: 10px;
+	 /*IE solution*/
+}
+#grid-containerP > articleP
+{
+	background-color: #FFFFFF;
+	border: solid 1px #666;
+	text-align: center;
+	padding: 1px 0;
+	font-size: 30px;
+}
+img
+{
+	width: 300px;
+	height: 260px;
+}
+footer
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
