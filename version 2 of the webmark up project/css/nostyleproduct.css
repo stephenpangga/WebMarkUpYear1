@@ -71,6 +71,7 @@ section.header2
 	text-align: center;
 	color: white;
 	font-size: 30px;
+	text-transform:uppercase;
 }
 /* grid of photos*/
 #grid-containerP

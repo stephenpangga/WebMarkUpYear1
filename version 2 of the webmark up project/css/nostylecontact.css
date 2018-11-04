@@ -37,8 +37,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #707070;
-	vertical-align: middle;
-	
+	vertical-align: middle;	
 }
 
 li {
@@ -58,7 +57,7 @@ li a {
     text-decoration: none;
 }
 
-section.header2
+.header2
 {
 	background-color: #2699FB;
 	background-size: 100% auto;
@@ -70,6 +69,7 @@ section.header2
 	text-align: center;
 	color: white;
 	font-size: 30px;
+	text-transform:uppercase;
 }
 footer
 {
