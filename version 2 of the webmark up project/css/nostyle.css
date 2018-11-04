@@ -22,19 +22,33 @@ section.header1
 	color: white;	
 }
 /*navigation bar*/
-ul.navbar
+
+ul
 {
 	background-color: #707070;
-	background-size: 100% auto;
 	margin: 1px 1px 1px;
-	padding-top: 10px;
-	padding-bottom: 10px;	
+	padding-top: 20px;
+	padding-bottom: 20px;	
 	text-align: center;
 	list-style-type: none;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	font-family:"Arial";
+	margin: 0;
 }
+li {
+    float: left;
+	width: 175px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 section.header2
 {
 	background-color: #2699FB;

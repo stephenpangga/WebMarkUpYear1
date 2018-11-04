@@ -53,14 +53,20 @@ body
 }
 #nav-bar li
 {
-	float: center;
+	float: left;
 	text-transform: uppercase;
 	color: #FFFFFF;	
 }
 #nav-bar li a
 {	
+	display: block;
+	text-align: center;
+	padding: 140px 100px;
 }
-
+#nav-bar li a: hover
+{
+	background-color: #111111;
+}
 footer
 {
 	background-color: #000000;
