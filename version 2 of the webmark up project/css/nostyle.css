@@ -22,28 +22,29 @@ section.header1
 	color: white;	
 }
 /*navigation bar*/
-
-ul
+#navbar
 {
-	background-color: #707070;
-	margin: 1px 1px 1px;
-	padding-top: 20px;
-	padding-bottom: 20px;	
-	text-align: center;
-	list-style-type: none;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	font-family:"Arial";
-	margin: 0;
+	vertical-align: middle;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	
+}
+
 li {
     float: left;
-	width: 175px;
+	margin-left: 19%;
 }
 
 li a {
+	
+	text-transform: uppercase;
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
