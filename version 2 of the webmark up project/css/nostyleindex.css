@@ -28,38 +28,39 @@ body
 	padding-bottom: 25px;/*space between bottom of BG and bottom part of text*/
 }
 
-#nav /*background*/
+.navigation /*background*/
 {
 	background-color: #878787;
 	/*border part*/
 	border-style: solid;
 	border-width: 1px;
 	border-color: #000000;
+	
 }
 
-.nav-bar
+#nav-bar
 {
-	color: #FFFFFF;
 	list-style-type: none;
 	text-align: center;
-	text-transform: uppercase;
-	margin: 0 auto;
+	overflow: hidden;
+	/*position: absolute; /* to make it stay at that position*/
 	/*spacing*/
 	border: 1px solid #FFFFFF;
-	Flex-direction: column;
-	/*
-	
-	width: 930px;
-	
-	font-size: 25px;
-	
-	
-	
-	height:25px;
-	padding-top: 5px;
-	padding-bottom:5px;
-	*/
+	Flex-direction: column;	
+	margin: 0 auto;
+	width: 917px;
+	background: #707070;
 }
+#nav-bar li
+{
+	float: center;
+	text-transform: uppercase;
+	color: #FFFFFF;	
+}
+#nav-bar li a
+{	
+}
+
 footer
 {
 	background-color: #000000;
@@ -73,17 +74,18 @@ footer
 }
 #header2
 {
-	background-color: #2699FB;
+	/*background-color: #2699FB; /* for the text back ground */
 	/*text pat*/
 	text-align: center;
 	text-transform:uppercase;
 	font-style: "Arial";
-	font-size: 10px;
+	font-size: 50px;
 	color: #FFFFFF;
 }
 #grid-images
 {
-	background-color: #FFFFFF;
+	background-color: #2699FB;
+	/*background-color: #FFFFFF; */
 	border: solid 1px;
 }
 #grid-images > foto
