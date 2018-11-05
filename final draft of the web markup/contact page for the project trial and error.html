@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keyword" content="Web 1920 contact"/>
+	<meta name="description" content=" web markup project"/>
+	<meta name="author" content= "stephen"/>
+	<title> Web 1920 contact</title>
+	<link 
+		rel = "stylesheet"
+		type = "text/css"
+		href = "css/nostyleerrorvfinal.css"
+	/>
+</head>
+<body>
+		<section class = "header1">
+			<h1>
+				Company
+			</h1>
+		</section>
+		<nav id="navbar">
+			<ul>
+				<li>
+					<a href ="https://facebook.com">Home</a>
+				</li>
+				<li>
+					<a href ="https://yahoo.com">product</a>
+				</li>
+				<li>
+					<a href ="https://instagram.com">blog</a>
+				</li>
+			</ul>
+		</nav>
+		<section class = "header2">
+			<h2>			
+				contact
+			</h2>
+		</section>
+	<!--content of the contact page-->
+		<article class="form">
+				<form action="nowhere.php" method="post">
+					<fieldset>
+						<label >Select topic</label>
+						<select>
+							<option value="general">General inquiries</option>
+							<option value="press">Press relations</option>
+							<option value="recruitement">Recruitement</option>
+						</select>
+					</fieldset>
+					<fieldset class="contactFormFieldset">
+						<input 
+							type="text" 
+							name="contactFormName"
+							placeholder="Your name.." 
+						/>
+					</fieldset>
+					<fieldset class="contactFormFieldset">
+						<input 
+							type="email" 
+							name="email" 
+							placeholder="Your email.." 
+						/>
+					</fieldset>
+					<fieldset>	
+						<textarea 
+							rows="7" 
+							cols="40" 
+							name="message" 
+							placeholder="Write something.."
+						></textarea>
+					</fieldset>
+					<input 
+						class="send" 
+						type="submit" 
+						value="Submit" 
+					/>
+				</form>
+		</article>
+</body>
+<footer>
+		&copy; 2018-Stephen Pangga - Inholland
+	</footer>
+</html>
