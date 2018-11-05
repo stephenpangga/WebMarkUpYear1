@@ -102,7 +102,7 @@ footer
 #grid-images
 {
 	background-color: #2699FB;
-	/*background-color: #FFFFFF; */
+	background-color: #FFFFFF;
 	border: solid 1px;
 }
 #grid-images > foto
@@ -134,7 +134,7 @@ footer
 	border: solid 10px #666;
 	padding:20px 0;
 }
-img
+#imgz
 {
 	padding: 11px;
 	width: 275px;
