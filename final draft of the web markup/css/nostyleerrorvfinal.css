@@ -1,4 +1,4 @@
-/*GENERAL ELEMENTS FOR EVERYPAGE*/
+/*****************************************************************************GENERAL ELEMENTS FOR EVERYPAGE***************************************************************************************************/
 body
 {
 	background-image: url("../img/background.png");
@@ -83,17 +83,21 @@ footer
 	padding-bottom: 10px;
 	justify-content: center; /*to center the text*/
 }
-/*GENERAL ELEMENTS FOR EVERYPAGE*/
+/*****************************************************************************GENERAL ELEMENTS FOR EVERYPAGE***************************************************************************************************/
 /*index/homepage*/
 #header2
 {
-	/*background-color: #2699FB; /* for the text back ground */
-	/*text pat*/
+	background-color: #2699FB;
+	background-size: 100% auto;
+	margin: 1px 1px 1px;
+	padding-top: 0.15px;
+	padding-bottom: 0.15px;
+	/*text in the sub header*/
+	font-family:"Arial";
 	text-align: center;
+	color: white;
+	font-size: 30px;
 	text-transform:uppercase;
-	font-style: "Arial";
-	font-size: 50px;
-	color: #FFFFFF;
 }
 #grid-images
 {
