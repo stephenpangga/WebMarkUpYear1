@@ -1,0 +1,142 @@
+/*****************************************************************************GENERAL ELEMENTS FOR EVERYPAGE***************************************************************************************************/
+html
+{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+body
+{
+	background-image: url("../img/background.png");
+	background-repeat: no-repeat;
+	width: 960px;
+	margin: auto;
+}
+.general-content /*display changes*/
+{
+	display:flex; /* so that the columns will aline automatically depending on the browser*/
+	flex-direction: column; /* how the changes on the browser size will affect the colums*/
+}
+h1
+{
+	/* for the background*/ 
+	background-image: url("../img/companylogoBG.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	/*text in this header*/
+	color:#FFFFFF;
+	text-align:center;
+	text-transform: uppercase;
+	font-family:"Berlin Sans FB";
+	font-size: 50px;
+	padding-top: 50px; /*space between topBG and top part of text*/
+	padding-bottom: 50px;/*space between bottom of BG and bottom part of text*/
+}
+nav
+{
+	vertical-align: middle;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+	vertical-align: middle;	
+}
+li
+ {
+    float: left;
+	margin-left: 19%;
+	text-align:center;
+	line-height: 50px;
+}
+li a {
+	
+	text-transform: uppercase;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+h2
+{
+	background-color: #2699FB;
+	padding: 50px;
+	text-transform:uppercase;
+	font-family:"Arial";
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	text-transform:uppercase;
+	margin: 0;
+}
+
+footer
+{
+	background-color: #000000;
+	color: #FFFFFF;/*text color*/
+	text-align: center;
+	display:flex;
+	/*spacing for words a.k.a double space*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: center; /*to center the text*/
+}
+
+/*****************************************************************************GENERAL ELEMENTS FOR EVERYPAGE***************************************************************************************************/
+/*index/homepage*/
+.grid-index
+{
+	background-color: #FFFFFF;
+}
+.grid-index > article
+{
+	width: auto;
+	height: auto;
+}
+
+article > img
+{
+	display:block; 
+	width: 100%;
+	height: auto;
+}
+/*product page elements*/
+/* grid of photos*/
+#grid-container
+{
+	background-color: #F8F;
+	border: solid 1px #F0F;
+	padding:10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grip-gap: 50px;
+	justify-content: space-evenly;
+}
+#grid-container > figure
+{
+	background-color: #2699FB;
+	border: solid 10px #666;
+	padding:20px 0;
+}
+figure
+{
+	background-color: #FFFFFF;
+	width: 960px;
+}
+figure > img
+{
+	padding: 6px;
+	width: 275px;
+	height: 200px;
+}
+/*contact page*/
+
+
+
