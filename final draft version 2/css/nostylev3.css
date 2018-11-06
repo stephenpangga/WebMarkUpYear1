@@ -111,9 +111,7 @@ article > img
 /* grid of photos*/
 #grid-container
 {
-	background-color: #F8F;
-	border: solid 1px #F0F;
-	padding:10px;
+	background-color: #FFFFFF;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grip-gap: 50px;
@@ -121,22 +119,47 @@ article > img
 }
 #grid-container > figure
 {
-	background-color: #2699FB;
-	border: solid 10px #666;
-	padding:20px 0;
-}
-figure
-{
 	background-color: #FFFFFF;
-	width: 960px;
+	border: solid 1px;
+	justify-content: space-evenly;
 }
 figure > img
 {
-	padding: 6px;
 	width: 275px;
 	height: 200px;
 }
 /*contact page*/
-
+body > contactfrom
+{
+	background-color: #AAAAAA;
+	border: 1px;
+}
+fieldset
+{
+	height: 50px;
+	margin: 15px;
+	font-size: 30px;
+	width: 96%;
+}
+input {
+	height: 50px;
+	font-size: 30px;
+	margin: 15px;
+	width: 96%;
+}
+textarea
+{
+	height: 100px;
+	font-size: 30px;
+	margin: 15px;
+	width: 96%;
+}
+.select
+{
+	height: 50px;
+	margin: 15px;
+	font-size: 30px;
+	width: 96%;
+}
 
 
