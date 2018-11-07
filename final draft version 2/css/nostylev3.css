@@ -4,6 +4,7 @@ html
 	margin:0;
 	padding: 0;
 	border: 0;
+	font-family: arial;
 }
 body
 {
@@ -69,7 +70,7 @@ h2
 	background-color: #2699FB;
 	padding: 50px;
 	text-transform:uppercase;
-	font-family:"Arial";
+	font-family: arial;
 	text-align: center;
 	color: white;
 	font-size: 30px;
@@ -114,19 +115,21 @@ article > img
 	background-color: #FFFFFF;
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grip-gap: 50px;
 	justify-content: space-evenly;
 }
 #grid-container > figure
 {
 	background-color: #FFFFFF;
-	border: solid 1px;
+	text-align: center;
 	justify-content: space-evenly;
+
 }
 figure > img
 {
-	width: 275px;
+	width: 280px;
 	height: 200px;
+	border: 1px solid #000000;
+	float: center;
 }
 /*contact page*/
 h3
@@ -142,7 +145,7 @@ section
 	background-color: #F5F5F5;
 	width: 100%;
 	display:block;
-	margin: none;
+	margin: 0;
 }
 form
 {
@@ -154,7 +157,7 @@ form
 fieldset
 {
 	padding:0;
-	border: 1px solid #00000;
+	border: 1px solid #000000;
 }
 .box1
 {
@@ -173,6 +176,7 @@ select /* is the selection part in topic box*/
 {
 	background-color: #FFFFFF;
 	padding: 0; /*to have no space between text area and border lines*/
+	border: none;
 }
 
 textarea
@@ -182,8 +186,11 @@ textarea
 }
 input /*the button*/
 {
-	background-color: #FFFFFF;
+	/* background-color: #FFFFFF; */
 	width: 99.5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:10px;
 }
 .send {
 	background-color:#2699FB;
@@ -191,3 +198,22 @@ input /*the button*/
 	padding: 10px;
 }
 
+/*****************************************************************************the media difference for phone,pc,tablet***************************************************************************************************/
+@media screen and (max-width:1080px)
+{
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3{
+		background-size: 100%;
+	}
+	header, section, h2, article, footer, nav {
+		width: 100%;
+	}
+	video {
+		display: none;
+	}
+}
