@@ -90,23 +90,25 @@ footer
 /******contact page elements********/
 h3
 {
+	margin:0;
+	display: block;
 	color: #707070;
 	font-size: 30px;
+	padding: 20px;
 }
 section
 {
-	background-color: #2699FB;
-	margin: 20px auto;
-	margin-bottom: 20px;
+	background-color: #F5F5F5;
 	width: 100%;
-	margin-bottom: 60px;
+	display:block;
+	margin: none;
 }
 form
 {
-	margin: 24px;
-    margin-bottom: 10px;
+	display: block;
+	margin: 0;
 	background-color: #F5F5F5;
-	padding: 50px
+	padding: 50px;
 }
 fieldset
 {
@@ -123,6 +125,8 @@ select /* is the selection part in topic box*/
 {
 	background-color: #FFFFFF;
 	border: 1px solid #000000;
+	float: right;
+	width: 60%;
 }
 .contactFormFieldset
 {
@@ -134,7 +138,6 @@ textarea
 {
 	background-color: #FFFFFF;
 	width: 100%;
-	display:block;
 }
 input /*the button*/
 {

@@ -129,37 +129,65 @@ figure > img
 	height: 200px;
 }
 /*contact page*/
-body > contactfrom
+h3
 {
-	background-color: #AAAAAA;
-	border: 1px;
+	margin:0;
+	display: block;
+	color: #707070;
+	font-size: 30px;
+	padding: 20px;
+}
+section
+{
+	background-color: #F5F5F5;
+	width: 100%;
+	display:block;
+	margin: none;
+}
+form
+{
+	display: block;
+	margin: 0;
+	background-color: #F5F5F5;
+	padding: 50px;
 }
 fieldset
 {
-	height: 50px;
-	margin: 15px;
-	font-size: 30px;
-	width: 96%;
+	padding:0;
+	border: 1px solid #00000;
 }
-input {
-	height: 50px;
-	font-size: 30px;
-	margin: 15px;
-	width: 96%;
-}
-textarea
+.box1
 {
-	height: 100px;
-	font-size: 30px;
-	margin: 15px;
-	width: 96%;
+	background-color: #FFFFFF;
+    color: #000000;
+	padding: 10px;
 }
-.select
+select /* is the selection part in topic box*/
 {
-	height: 50px;
-	margin: 15px;
-	font-size: 30px;
-	width: 96%;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	float: right;
+	width: 60%;
+}
+.contactFormFieldset
+{
+	background-color: #FFFFFF;
+	padding: 0; /*to have no space between text area and border lines*/
 }
 
+textarea
+{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+input /*the button*/
+{
+	background-color: #FFFFFF;
+	width: 99.5%;
+}
+.send {
+	background-color:#2699FB;
+	color: #FFFFFF;
+	padding: 10px;
+}
 
