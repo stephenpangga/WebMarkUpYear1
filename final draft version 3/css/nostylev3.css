@@ -285,6 +285,18 @@ input /*the button*/
 /*mobile*/
 @media screen and (max-width:360)
 {
+	.h2-2
+	{
+		display: none;
+	}
+	.h2-3
+	{
+		display: none;
+	}
+	.h2-4
+	{
+		display: none;
+	}
 	.flex-columns a
 	{
 		flex: 100%;
@@ -294,7 +306,11 @@ input /*the button*/
 /* tablet*/
 @media screen and (min-width:361px) and (max-width: 960px)
 {
-	h2
+	.h2-2
+	{
+		display: none;
+	}
+	.h2-3
 	{
 		display: none;
 	}
