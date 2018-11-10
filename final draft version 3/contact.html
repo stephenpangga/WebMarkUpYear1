@@ -1,42 +1,69 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
-<form action="nowhere.php" method="post">
-	<fieldset>
-		<label >Select topic</label>
-		<select>
-			<option value="general">General inquiries</option>
-			<option value="press">Press relations</option>
-			<option value="recruitement">Recruitement</option>
-		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
+<!DOCTYPE html>
+<html lang= "en">
+<!--general codes-->
+<head>
+	<meta charset="UTF-8"/>
+	<meta  name="viewport" content= "width=device-width, initial-scale=1.0">
+	<meta name="keyword" content="inholland, entertainment, games"/>
+	<meta name="description" content=" we are entertainment!"/>
+	<meta name="author" content= "Stephen pangga"/>
+	<title> Home page</title>
+	<link 
+		rel = "stylesheet"
+		type = "text/css"
+		href = "css/contactpage.css"
 	/>
-</form>
-2018 - Student name - Inholland 
+</head>
+<!--------------------------general codes-------------------------->
+<body>
+		<video autoplay muted loop>
+			<source src="movie/background.mp4" type="video/mp4" >	
+		</video>
+	<h1>
+		<a href ="http://stephenpangga.nl">Company name</a>
+	</h1>
+	<nav>
+		<ul>
+			<li>
+				<a href ="http://stephenpangga.nl/product_v2.html">product</a>
+			</li>
+			<li>
+				<a href ="http://www.blogger.com/about/?r=1-null_user">Blog</a>
+			</li>
+			<li>
+					<a href ="http://stephenpangga.nl/contact_v2.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+<!--------------------------general codes-------------------------->
+	<section class ="flex-index">
+		<h2 class = "banner1"> 
+			we are entertainment
+		</h2>
+		<article>
+			<img src = "img/small/product3.jpg"/>
+		</article>
+		<h2 class = "banner2">			
+			mobile games
+		</h2>
+		<article>
+			<img src = "img/small/product8.jpg"/>
+		</article>
+		<h2 class = "banner3">			
+			Board games
+		</h2>
+		<article>
+			<img src = "img/small/product6.jpg"/>
+		</article>
+		<h2 class = "banner4"> 			
+			console games
+		</h2>
+		<article>
+			<img src = "img/small/product9.jpg"/>
+		</article>		
+	</section>
+	<footer>
+	&copy; 2018-Stephen Pangga - Inholland
+	</footer>
+</body>
+</html>

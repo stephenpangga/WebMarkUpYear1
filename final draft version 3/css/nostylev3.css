@@ -285,7 +285,7 @@ input /*the button*/
 /*mobile*/
 @media screen and (max-width:360)
 {
-	.h2-2
+	h2 .h2-2
 	{
 		display: none;
 	}
