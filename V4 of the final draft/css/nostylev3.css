@@ -106,7 +106,7 @@ h2
 	color: #FFFFFF;
 	font-size: 6.5rem;
 	text-transform:uppercase;
-	border: 2%;
+	border: 1px;
 	margin: 0;
 	padding-top: 3%;
 	padding-bottom: 3%;
@@ -369,7 +369,7 @@ input /*the button*/
 
 /*****************************************************************************the media difference for phone,pc,tablet***************************************************************************************************/
 /*mobile*/
-@media screen and (max-width:360)
+@media screen and (max-width:360px)
 {
 	h2 .h2-2
 	{
