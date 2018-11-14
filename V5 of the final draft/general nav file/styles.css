@@ -1,0 +1,85 @@
+a {
+	color: #FFF;
+}
+.toggle, [id^=drop] {
+	display: none;
+	width: 100%;
+}
+nav {
+	margin: 0;
+	padding: 0;
+	background-color: #fff
+}
+nav ul li a:hover {
+	background-color: black;
+}
+nav:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+nav ul {
+	float: left;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	margin: 0px;
+	display: inline-block;
+	float: left;
+	background-color: #848484;
+}
+nav a {
+	display: block;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+/* Change ' +' in order to change the Dropdown symbol */
+
+li>a:after {
+	content: ' +';
+}
+li>a:only-child:after {
+	content: '';
+}
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width: 768px) {
+	nav {
+		margin: 0;
+	}
+	/* Hide the navigation menu by default */
+	.toggle+a, .menu {
+		display: none;
+	}
+	.toggle {
+		display: block;
+		background-color: #848484;
+		padding: 14px 20px;
+		color: #FFF;
+		font-size: 17px;
+		text-decoration: none;
+		border: none;
+	}
+	.toggle:hover {
+		background-color: #000000;
+	}
+	/* Display Dropdown when clicked on Parent Label */
+	[id^=drop]:checked+ul {
+		display: block;
+		width: 100%;
+	}
+	nav ul li {
+		display: block;
+		width: 100%;
+	}
+}
+@media all and (max-width: 330px) {
+	nav ul li {
+		display: block;
+		width: 94%;
+	}
+}
