@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%27');
 *
 {
 	margin:0;
@@ -31,6 +32,21 @@ video
 	width: auto;
 	max-width: 100%; 
 	z-index: -1;
+}
+/******* no video background for smaller media base on design images from design folder ******/
+@media screen and (max-width:360px)
+{
+	video
+	{
+		display:none;
+	}
+}
+@media screen and (min-width: 360px) and (max-width:959px)
+{
+	video
+	{
+		display:none;
+	}
 }
 .general-content /*display changes*/
 {
@@ -72,6 +88,27 @@ h2
 	width: 100%;
 }
 /**************** fixing the h2 titles at index pages to be in 2 lines ******/
+@media screen and (max-width: 360px)
+{
+	.banner1
+	{
+		padding-left: 5%;
+		padding-right:5%;
+	}
+}
+@media screen and (min-width: 360px) and (max-width: 960px)
+{
+	.banner1
+	{
+		padding-left: 5%;
+		padding-right:5%;
+	}
+	.banner2, .banner3, .banner4
+	{
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+}
 @media screen and (min-width: 960px)
 {
 	.banner1
@@ -110,6 +147,7 @@ a {
 .toggle, [id^=drop] {
 	display: none;
 	width: 100%;
+
 }
 nav {
 	margin: 0;
@@ -509,9 +547,9 @@ input /*the button*/
 	{
 		background-image: none;
 	}
-	h2
+	.contacttitle
 	{
-		display: none;
+		display:none;
 	}
 	h3
 	{
