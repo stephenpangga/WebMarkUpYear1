@@ -1,0 +1,3 @@
+student name : Stephen pangga
+student number : 629860
+student class : IT-1B
