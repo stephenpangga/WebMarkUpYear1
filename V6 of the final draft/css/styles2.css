@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans%27');
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture:400,700%27%27');
 *
 {
 	margin:0;
@@ -71,7 +71,8 @@ h1 a
 {
 	text-decoration: none;
 	color:#FFFFFF;
-	font-family:"Berlin Sans FB";
+	/*font-family:"Berlin Sans FB";*/
+	font-family: 'Black And White Picture';
 }
 
 h2
