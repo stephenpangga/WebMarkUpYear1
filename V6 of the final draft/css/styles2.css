@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture:400,700%27%27');
+@font-face
+{
+	font-family:"Black And White Picture";
+	src: url(../Fonts/BlackAndWhitePicture-Regular.ttf);
+}
 *
 {
 	margin:0;
@@ -41,7 +45,7 @@ video
 		display:none;
 	}
 }
-@media screen and (min-width: 360px) and (max-width:959px)
+@media screen and (min-width: 361px) and (max-width:959px)
 {
 	video
 	{
@@ -66,13 +70,14 @@ h1
 	font-size: 5rem;
 	padding-top: 50px; /*space between topBG and top part of text*/
 	padding-bottom: 50px;/*space between bottom of BG and bottom part of text*/
+	text-shadow: 1px 1px 2px black, 1px -1px 2px black, -1px 1px 2px black, -1px -1px 2px black;
 }
 h1 a
 {
 	text-decoration: none;
 	color:#FFFFFF;
 	/*font-family:"Berlin Sans FB";*/
-	font-family: 'Black And White Picture';
+	font-family: 'Black And White Picture', serif;
 }
 
 h2
@@ -97,7 +102,7 @@ h2
 		padding-right:5%;
 	}
 }
-@media screen and (min-width: 360px) and (max-width: 960px)
+@media screen and (min-width: 361px) and (max-width: 960px)
 {
 	.banner1
 	{
@@ -205,7 +210,7 @@ li>a:only-child:after {
 		display: block;
 		background-color: #848484;
 		padding: 14px 20px;
-		color: #FFF;
+		color: #FFFFFF;
 		font-size: 1.0625rem;
 		text-decoration: none;
 		border: none;
@@ -262,6 +267,7 @@ article img
 {
 	width: 100%;
 	height: auto;
+	border: 0;
 }
 /*********************************************************************************media screen for index/homepage*************************************************************/
 /*mobile*/
@@ -296,7 +302,7 @@ article img
 	}
 }
 /* tablet*/
-@media screen and (min-width:360px) and (max-width: 960px)
+@media screen and (min-width:361px) and (max-width: 960px)
 {
 	.banner2
 	{
@@ -372,51 +378,51 @@ article img
 /*the images background for the product page*/
 .flex-columns a:nth-of-type(1)
 {
-    background-image: url(../img/small/product1.jpg);
+    background-image: url(../img/product1.png);
 }
 .flex-columns a:nth-of-type(2)
 {
-    background-image: url(../img/small/product2.jpg);
+    background-image: url(../img/product2.png);
 }
 .flex-columns a:nth-of-type(3)
 {
-    background-image: url(../img/small/product3.jpg);
+    background-image: url(../img/product3.png);
 }
 .flex-columns a:nth-of-type(4)
 {
-    background-image: url(../img/small/product4.jpg);
+    background-image: url(../img/product4.png);
 }
 .flex-columns a:nth-of-type(5)
 {
-    background-image: url(../img/small/product5.jpg);
+    background-image: url(../img/product5.png);
 }
 .flex-columns a:nth-of-type(6)
 {
-    background-image: url(../img/small/product6.jpg);
+    background-image: url(../img/product6.png);
 }
 .flex-columns a:nth-of-type(7)
 {
-    background-image: url(../img/small/product7.jpg);
+    background-image: url(../img/product7.png);
 }
 .flex-columns a:nth-of-type(8)
 {
-    background-image: url(../img/small/product8.jpg);
+    background-image: url(../img/product8.png);
 }
 .flex-columns a:nth-of-type(9)
 {
-    background-image: url(../img/small/product9.jpg);
+    background-image: url(../img/product9.png);
 }
 .flex-columns a:nth-of-type(10)
 {
-    background-image: url(../img/small/product10.jpg);
+    background-image: url(../img/product10.png);
 }
 .flex-columns a:nth-of-type(11)
 {
-    background-image: url(../img/small/product11.jpg);
+    background-image: url(../img/product11.png);
 }
 .flex-columns a:nth-of-type(12)
 {
-    background-image: url(../img/small/product12.jpg);
+    background-image: url(../img/product12.png);
 }
 /***********************************************************************media screen for product page*******************************************************************/
 /*mobile*/
@@ -579,5 +585,12 @@ input /*the button*/
 		text-align: center;
 		width:100%;
 		height: auto;
+	}
+}
+@media screen and (min-width:960px)
+{
+	body
+	{
+		background-image: none;
 	}
 }
